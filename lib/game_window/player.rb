@@ -1,6 +1,6 @@
 class Player
   def initialize(window)
-    @image = Gosu::Image.new(window, "media/test.bmp", false)
+    @image = Gosu::Image.new(window, "media/nightraider.bmp", false)
     @x = @y = @vel_x = @vel_y = @angle = 0.0
     @score = 0
   end

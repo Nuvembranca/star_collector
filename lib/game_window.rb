@@ -8,7 +8,7 @@ class GameWindow < Gosu::Window
     self.caption = 'Gosu Tutorial Game'.freeze
     @background_image = Gosu::Image.new(self, 'media/space.png', true)
     @player = Player.new(self)
-    @player.warp(320,240)
+    @player.warp(32,24)
   end
 
   def update
